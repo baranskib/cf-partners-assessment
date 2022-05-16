@@ -99,6 +99,8 @@ purposes.
 
 ### To deploy the app on AWS:
 
+Type the commands below in the terminal where AWS Cli is installed.
+   
 `aws ecr create-repository \
 --repository-name cf-partners \
 --image-scanning-configuration scanOnPush=true \
