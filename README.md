@@ -84,7 +84,7 @@ To test:
 
 Below is the diagram of the deployment architecture:
 
-![](images/AWS Diagram.001.jpeg)
+![](images/aws.jpeg)
 
 The engineer creates the ECR for storing the docker image of the application. Docker build creates a container image of
 the application, that is stored in the ECR. Terraform lays out the architecture and configuration, for automating the
