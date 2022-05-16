@@ -56,7 +56,7 @@ Pre - requisites:
 - AWS Cli
 - Git Client
 
-   
+ When pre-requisites are met, please do the following:
 
 - Clone the repository
 - Run conda/pip install on the requirements.txt
