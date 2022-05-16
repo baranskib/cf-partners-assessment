@@ -106,7 +106,7 @@ Type the commands below in the terminal where AWS Cli is installed.
 --image-scanning-configuration scanOnPush=true \
 --region eu-west-2`
 
-Replace the **<AWS-ID>** with your AWS ID
+Replace the AWS-ID with your AWS ID
 
 Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
 
