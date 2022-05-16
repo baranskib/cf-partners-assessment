@@ -11,6 +11,11 @@ app = Flask(__name__)
 db = DB()
 
 
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+
 @app.route('/hello/<username>', methods=['PUT'])
 def put(username):
     """
@@ -121,4 +126,4 @@ def get(username):
 
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host='0.0.0.0', port=8000, debug=False)
